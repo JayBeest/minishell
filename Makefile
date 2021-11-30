@@ -24,7 +24,7 @@ endif
 SRC_DIR =	src
 OBJ_DIR	= 	$(SRC_DIR)/obj
 INCL = 		-I$(SRC_DIR)/incl
-C_FLAGS = 	-Wall -Wextra -Werror #-g -fsanitize=address
+C_FLAGS = 	-Wall -Wextra -Werror -g -fsanitize=address
 
 OBJ = 		$(SRC:%.c=$(OBJ_DIR)/%.o)
 
